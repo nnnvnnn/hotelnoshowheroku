@@ -166,7 +166,7 @@ def index():
                                    book_duration, stay_duration]])
         
         
-        modelXGB = joblib.load("xgboost")
+        modelXGB = joblib.load("decisiontree")
         predXGB = modelXGB.predict(np.array([[first_time, num_adults, num_children, SGD_amount, 
                                               branch_Changi, branch_Orchard, country_Australia,country_China,country_India,
                                               country_Indonesia,country_Japan,country_Malaysia,country_Singapore,
