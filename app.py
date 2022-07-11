@@ -7,6 +7,7 @@
 import joblib
 from flask import Flask 
 from lightgbm import LGBMClassifier
+import xgboost as xgb
 from flask import render_template, request 
 import numpy as np
 
