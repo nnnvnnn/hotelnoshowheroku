@@ -164,8 +164,8 @@ def index():
                                    platform_Agent, platform_Email, platform_Phone, platform_Website,
                                    book_duration, stay_duration]])
         
-        
-        modelXGB = joblib.load("xgboost")
+        xbg = xgb.Booster()
+        modelXGB = xgb.load_model("xgb.json")
         predXGB = modelXGB.predict(np.array([[first_time, num_adults, num_children, SGD_amount, 
                                               branch_Changi, branch_Orchard, country_Australia,country_China,country_India,
                                               country_Indonesia,country_Japan,country_Malaysia,country_Singapore,
