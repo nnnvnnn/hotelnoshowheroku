@@ -1,5 +1,8 @@
 body {
-    background-color: #4a4e5d;
+    background-image: url("istockphoto-1148136785-170667a.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
     font: #FCF8E8;
     text-align: center;
     align-content:center;
