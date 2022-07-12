@@ -2,7 +2,9 @@ body {
     background-color: #555B6E;
     font: #FCF8E8;
     text-align: center;
-    position: center;
+    align-content:center;
+    margin: auto;
+    width: 500px;
 }
 
 .navbar {
@@ -10,11 +12,11 @@ body {
     color: #FCF8E8;
     font-size: 200%;
     font-family: ;
-    border : 1px dashed #000;
-    border-radius: 0.2EM;
-    padding : 5px;
-    width: 500px;
+    border-radius: 0.5EM;
+    padding : -5px;
 
+    border : 1px dashed #000;
+    ;
 
 }
 
@@ -23,13 +25,9 @@ body {
     color: #BEE3DB;
     font-size: medium;
     border : 1px dashed #000;
-    border-radius: 0.2EM;
+    border-radius: 0.5EM;
     padding : 5px;
-    width: 500px;
 
-    input {
-        border : 2px dashed #fff;
-        } 
 
 
 }
@@ -40,7 +38,7 @@ body {
     font-size: xx-small;
     font-style: normal;
     padding : 0px;
-    width: 500px;
+
 
 }
 
