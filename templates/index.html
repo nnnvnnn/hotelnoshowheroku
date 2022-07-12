@@ -6,7 +6,7 @@
 
     
         <!-- css -->
-        <link rel="stylesheet" href="/static/css/styles.css">
+        <link rel="stylesheet" href="static/css/styles.css">
     </head>
 
 
@@ -24,7 +24,6 @@
         </nav> 
 <br>
 
-        <nav class="footer"></nav>
 
         <nav class="main">
             <div class="container-fluid">
@@ -32,19 +31,19 @@
                 <h1>Prediction of No-show Customers</h1>
                 <form action = "/" method ="post">
                     <p>Please enter the number of adults staying: </p>
-                    <p><input type ="number", step="1", name = "adults"></p>
+                    <p><input type ="number", step="1", name = "adults", required="required"></p>
 
                     <p>Please enter number of children staying: </p>
-                    <p><input type ="number", step="1", name = "children"></p>
+                    <p><input type ="number", step="1", name = "children", required="required"></p>
 
                     <p>Please enter the price in SGD: </p>
-                    <p><input type ="number", step="0.01", name = "price"></p>
+                    <p><input type ="number", step="0.01", name = "price", required="required"></p>
 
                     <p>Please enter the number of days staying: </p>
-                    <p><input type ="number", step="1", name = "duration"></p>
+                    <p><input type ="number", step="1", name = "duration", required="required"></p>
 
                     <p>Please enter the number of months booked in advanced: </p>
-                    <p><input type ="number", step="1", name = "book"></p>
+                    <p><input type ="number", step="1", name = "book", required="required"></p>
 
                     <label for="first_time">First time visiting?:</label>
                     <select name="first_time" id="first_time">
