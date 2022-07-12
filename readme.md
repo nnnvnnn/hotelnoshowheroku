@@ -1,5 +1,4 @@
 <h1>README Submission</h1>
-Name: Ng Shu Hui Joevin<br>
 herokuapp: https://noshow-ml.herokuapp.com/<br><br>
 -----------------<br>
 
@@ -33,7 +32,7 @@ The section as follow<br>
 
 
 <h2>1. Overview of the submitted folder and the folder structure</h2>
-<img alt="alt_text" src="https://github.com/nnnvnnn/aiap-ng-shu-hui-joevin-490F/blob/main/workflow.png" /><br>
+<img alt="alt_text" src="https://github.com/nnnvnnn/NoShow-Heroku/blob/main/Capture.PNG" /><br>
 <h2>2. Assumptions</h2>
 1. Prices that are stated <i>none</i> to be assumed guests received free hotel stays, be it via vouchers or giveaways etc. Hence, <i>none</i> are converted to <i>SGD $0.00</i><br>
 2. Prices that are in USD will be converted to SGD, assuming real-time conversion.
