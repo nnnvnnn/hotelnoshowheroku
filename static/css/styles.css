@@ -1,5 +1,5 @@
 body {
-    background-image: url("image.jpg");
+    background-image: url("istockphoto-1148136785-170667a.jpg");
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -12,7 +12,7 @@ body {
 
 .navbar {
     background-color: #555B6E;
-    opacity: 0.6;
+    opacity: 0.8;
     color: #FCF8E8;
     font-size: 200%;
     border-radius: 0.5EM;
@@ -27,7 +27,7 @@ body {
 .main {
     background-color: #555B6E;
     color: #BEE3DB;
-    opacity: 0.6;
+    opacity: 0.8;
     font-size: medium;
     border : 1px dashed #000;
     border-radius: 0.5EM;
@@ -40,7 +40,7 @@ body {
 
 .footer {
     background-color: #555B6E;
-    opactiy: 0.6;
+    opactiy: 0.8;
     color: #d5d5d5;
     font-size: xx-small;
     font-style: normal;
