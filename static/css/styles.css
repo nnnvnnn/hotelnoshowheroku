@@ -1,5 +1,5 @@
 body {
-    background-color: #555B6E;
+    background-color: #4a4e5d;
     font: #FCF8E8;
     text-align: center;
     align-content:center;
@@ -8,7 +8,7 @@ body {
 }
 
 .navbar {
-    background-color: #4a4e5d;
+    background-color: #555B6E;
     color: #FCF8E8;
     font-size: 200%;
     font-family: ;
@@ -21,7 +21,7 @@ body {
 }
 
 .main {
-    background-color: #4a4e5d;
+    background-color: #555B6E;
     color: #BEE3DB;
     font-size: medium;
     border : 1px dashed #000;
@@ -33,7 +33,7 @@ body {
 }
 
 .footer {
-    background-color: #4a4e5d;
+    background-color: #555B6E;
     color: #d5d5d5;
     font-size: xx-small;
     font-style: normal;
