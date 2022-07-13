@@ -1,5 +1,5 @@
 <h1>README Submission</h1>
-herokuapp: https://noshow-ml.herokuapp.com/<br><br>
+herokuapp: https://hotelnoshow.herokuapp.com/<br><br>
 -----------------<br>
 
 This project has been uploaded onto heroku <br>
@@ -51,7 +51,7 @@ On average, the no shows tend to book 5.38 months in advanced and tend to book f
 5 models were executed, 1. XGBoost, 2. LightGBM, 3. Decision Tree, 4. Random Forest 5. Neural Network.<br><br>
 All models are capable of large data and categorical data, though we have already one-hot enconded the categorical data.<br>
 All models are compared with accuracy, precision and f1 scores. <br><br>
-The top 3 performing ones are <b>1. XGboost 2. Decision Tree and 3. Neural Netowork.</b> Hence these 3 models were chosen for deployment<br>
+The top 3 performing ones are <b>1. XGboost 2. Decision Tree and 3. LightGBM.</b> Hence these 3 models were chosen for deployment<br>
 
 <h2>6. Deployment</h2>
 Once machine learning model has been chosen, we allow for deployment using user inputs.<br>
