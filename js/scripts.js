@@ -11,4 +11,3 @@ window.addEventListener('DOMContentLoaded', event => {
     }
 };
 
-var scroll = new SmoothScroll('a[href*="#"]');
