@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Hotel Chain No Show Prediction</title>
+
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600&display=swap" rel="stylesheet">
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" rel="stylesheet">
+        <link href="style.css" rel="stylesheet">
+    
+        <!-- css -->
+        <link rel="stylesheet" href="styles.css">
+    </head>
+
+
+
+    <body>
+        <script src="scripts.js"></script>
+    <!-- navigation menu -->
+        <nav>
+            <ul>
+                <li class="blank"></li>
+                <li>
+                    <a href="#"><i class="fa fa-home"></i>   home</a>
+                </li>
+                <li>
+                    <a href="#workflow"><i class="fa fa-book"></i>   workflow</a>
+                </li>
+                <li>
+                    <a href="#codes"><i class="fa fa-users"></i>   Codes</a>
+                </li>
+                <li>
+                    <a href="mailto:joevin.ngsh@gmail.com"><i class="fa fa-phone"></i>   contact</a>
+                </li>
+            </ul>
+        </nav>
+    <!-- navigation menu end -->
+        
+    <!-- Home -->
+        <div class="wrapper">
+            <div class="section">
+                <div class="box-area">
+                    <h2>Hotel Chain No Show Prediction</h2>
+
+                    <form action = "/" method ="post">
+                        <p>Please enter the number of adults staying: </p>
+                        <p><input type ="number", step="1", name = "adults", required="required"></p>
+    
+                        <p>Please enter number of children staying: </p>
+                        <p><input type ="number", step="1", name = "children", required="required"></p>
+    
+                        <p>Please enter the price in SGD: </p>
+                        <p><input type ="number", step="0.01", name = "price", required="required"></p>
+    
+                        <p>Please enter the number of days staying: </p>
+                        <p><input type ="number", step="1", name = "duration", required="required"></p>
+    
+                        <p>Please enter the number of months booked in advanced: </p>
+                        <p><input type ="number", step="1", name = "book", required="required"></p>
+    
+                        <label for="first_time">First time visiting?:</label>
+                        <select name="first_time" id="first_time">
+                            <option value="Yes">Yes</option>
+                            <option value="No">No</option>
+                        </select>
+    
+                        <br><br>
+                        <label for="branch">Select branch:</label>
+                        <select name="branch" id="branch">
+                            <option value="Orchard">Orchard</option>
+                            <option value="Changi">Changi</option>
+                        </select>
+    
+                        <br><br>
+                        <label for="country">Which country are you from?</label>
+                        <select name="country" id="country">
+                            <option value="China">China</option>
+                            <option value="Indonesia">Indonesia</option>
+                            <option value="India">India</option>
+                            <option value="Autralia">Autralia</option>
+                            <option value="Japan">Japan</option>
+                            <option value="Singapore">Singapore</option>
+                            <option value="Malaysia">Malaysia</option>
+                        </select>
+    
+                        <br><br>
+                        <label for="room">Which room type was booked?</label>
+                        <select name="room" id="room">
+                            <option value="Single">Single</option>
+                            <option value="King">King</option>
+                            <option value="Queen">Queen</option>
+                            <option value="President_Suite">President Suite</option>
+                        </select>
+    
+                        <br><br>
+                        <label for="platform">Which platform was used for booking?</label>
+                        <select name="platform" id="platform">
+                            <option value="Agent">Agent</option>
+                            <option value="Email">Email</option>
+                            <option value="Phone">Phone</option>
+                            <option value="Website">Website</option>
+                        </select>
+    
+    
+    
+                        <p><input type="submit", value="Enter"</p>
+                    </form>
+    
+    
+                    <p>{{Result1}}</p>
+                    <p>{{Result2}}</p>
+                    <p>{{Result3}}</p>
+
+
+
+
+
+                    <BR><BR>
+                    <div class='footer'>
+                        <p>© Created by <a target="_blank" href="https://github.com/nnnvnnn"> Joevin Ng </a>
+                    </div>
+    
+                </div>
+            </div>
+        </div>
+    <!-- Home end -->
+
+    <!-- Workflow -->
+        <div class="wrapper">
+            <div class="section">
+                <div class="box-area" id="workflow">
+                    <h2>Workflow Chart</h2>
+                    <img src="pink.png" width="110%">
+                        <div class='footer'>
+                            <p>© Created by <a target="_blank" href="https://github.com/nnnvnnn"> Joevin Ng </a>
+                        </div>
+                </div>
+            </div>
+        </div>
+    <!-- Workflow end -->
+
+    <!-- Codes -->
+        <div class="wrapper">
+            <div class="section">
+                <div class="box-area" id="codes">
+                    <h2>Codes</h2>
+
+                    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+                    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+                    crossorigin="anonymous"></script>
+                    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+                    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+                    crossorigin="anonymous"></script>
+                    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+                    integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+                    crossorigin="anonymous"></script>
+                    <script src="https://kit.fontawesome.com/5f3f547070.js" crossorigin="anonymous"></script>
+
+
+                    <div class ="box-areacodes">
+                    <p><a target="_blank" href="https://github.com/nnnvnnn/NoShow-Heroku"><i class="fab fa-github fa-lg contact-icon"></i></a> Click <a target="_blank" href="https://github.com/nnnvnnn/NoShow-Heroku"><i>here</i></a> for github link.</p>
+                    
+                    <p>	▸ Click <a target="_blank" href="https://nbviewer.org/github/nnnvnnn/HotelEDA.io/blob/main/eda.ipynb"><i>here</i></a> for EDA/Data cleaning link.</p>
+                    <p>	▸ Click <a target="_blank" href="https://nbviewer.org/github/nnnvnnn/NoShow-Heroku/blob/main/templates/main.ipynb"><i>here</i></a> for machine learning algorithm link.</p>
+                    <BR><BR>
+                        <div class='footer'>
+                            <p>© Created by <a target="_blank" href="https://github.com/nnnvnnn"> Joevin Ng </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    <!-- Codes end -->
+
+
+    </body>
+
+
+
+
+
+</html>
