@@ -94,13 +94,13 @@ nav ul li a:hover:before {
 }
 .box-area {
 	width: 75%;
-	font-size: 80%;
+	font-size: 100%;
 }
 
 .box-areacodes {
 	width: 75%;
     text-align: left;
-    font-size: 80%;
+    font-size: 90%;
 }
 
 /***links***/
